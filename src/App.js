@@ -1,14 +1,11 @@
-import "./App.css";
-import Search from "./components/Search";
-import SearchResults from "./components/SearchResults";
+import SearchContainer from "./containers/SearchContainer";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Search />
-      <SearchResults/>
+      <SearchContainer />
     </div>
   );
-}
+};
 
 export default App;
