@@ -4,9 +4,9 @@ import "../results.css";
 const SearchResults = ({ searchResults }) => {
   return (
     <div>
-      {searchResults?.map((result, id) => {
+      {searchResults?.map((result, index) => {
         return (
-          <div key={id}>
+          <div key={index}>
             <a href={result.url}>
               <div id="results">{result.title}</div>
             </a>
